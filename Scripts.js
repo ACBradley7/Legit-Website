@@ -33,7 +33,8 @@ function embedVideo() {
     iFrame.style.width = "100%";
     iFrame.style.height = "100%";
     iFrame.setAttribute("frameborder", "0");
-    iFrame.setAttribute("src", "https://www.youtube.com/embed/dQw4w9WgXcQ");
+    iFrame.setAttribute("id", "video");
+    iFrame.setAttribute("src", "https://www.youtube.com/embed/xzpndHtdl9A");
     videoFrame.appendChild(iFrame);
 }
 
